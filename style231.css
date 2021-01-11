@@ -1,0 +1,234 @@
+hr {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+header {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+footer {
+    width: 1200px;
+    height: 60px;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+main {
+    display: flex;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+body {
+    margin-top: 0px;
+
+}
+
+a {
+    text-decoration: none;
+    color: #707070;
+}
+
+.p-header {
+    display: inline-block;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+
+#p_My {
+    font-weight: bold;
+}
+
+#p_Music {
+    font-weight: normal;
+    padding-left: 5px;
+}
+
+.header-menu li {
+    list-style-type: none;
+    display: inline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+.header-menu {
+    align-items: center;
+}
+
+.header-text {
+}
+
+.p-songs {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 17px;
+  margin-top: 15px;
+}
+
+.padd {
+    padding-top: 70px;
+}
+
+.footer-menu p {
+    color: #707070;
+    display: inline-block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 8px;
+}
+
+.footer-menu li {
+    list-style-type: none;
+    display: inline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    padding-right: 60px;
+}
+
+.footer-menu {
+    margin-left: 30px;
+    height: 45px;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.oval {
+    margin-right: auto;
+    margin-left: auto;
+    width: 200px;
+    height: 200px;
+    background: #e9337c;
+    border-radius: 20px / 20px;
+}
+
+.modal-main-content {
+    position: relative;
+    width: 700px;
+    height: 700px;
+    background: #e9337c;
+}
+
+.modal-main-content2 {
+    width: 450px;
+    height: 700px;
+    background: #FFF;
+    overflow: auto;
+}
+
+.track_img {
+    width: 41px;
+    height: 41px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+
+.track_title {
+    font-size: 15px;
+    color: #010101;
+    white-space: nowrap;
+    text-decoration: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+
+.track_desc {
+    font-size: 14px;
+    color: grey;
+    display: block;
+    max-width: 100%;
+    text-decoration: none;
+    font-family: muller, sans-serif;
+}
+
+
+.track_info-l {
+    max-width: calc(100% - 75px);
+}
+
+.track_info {
+    width: calc(100% - 107px);
+    display: flex;
+    text-decoration: none;
+    justify-content: space-between;
+    align-items: center;
+    font-family: muller, sans-serif;
+}
+
+.track_play {
+
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  margin-right: 15px;
+  position: relative;
+  border: 1px solid #26262e;
+  left: 1px;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: url(https://ruv.hotmo.org/static/hitmo/images/play.svg) center no-repeat;
+}
+
+.track {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,0.05);
+}
+
+.track-li {
+  list-style-type: none;
+  display: inline;
+}
+
+
+.modal-audio {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  bottom: 0;
+  left: 230px;
+}
+
+.form-text {
+  padding-left: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 16px;
+}
+
+.form-head {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+.form-control {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+audio::-webkit-media-controls-panel {
+	background: #F5F5F5;
+}
